@@ -4,7 +4,7 @@ import Match from '../Models/Match';
 import {
   END_MATCH,
   SET_SELECTED_MATCH
-} from '../Constants';
+} from '../Db';
 
 export const selected_match = (state = "", action) => {
 

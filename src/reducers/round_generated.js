@@ -1,6 +1,6 @@
 import {
   SET_ROUND_GENERATED
-} from '../Constants';
+} from '../Db';
 
 export const round_generated = (state = false, action) => {
 

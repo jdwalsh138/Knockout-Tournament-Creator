@@ -8,10 +8,10 @@ import {
   getNextRound,
   setRoundGenerated,
   setWinningTeam
-} from '../Actions';
+} from '../Seeds';
 
 //Pages
-import ViewMatchsPage from '../Components/view-matchs/view-matchs';
+import ViewMatchsPage from '../Pages/view-matchs/view-matchs';
 
 const mapStateToProps = state => ({
   matchs: state.matchs,

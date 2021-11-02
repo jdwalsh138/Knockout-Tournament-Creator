@@ -1,3 +1,6 @@
+export const ALERT_VALID = "ALERT_VALID";
+export const ADMIN_VALID = "ADMIN_VALID";
+export const GUEST_VALID = "GUEST_VALID"
 export const ADD_TEAM = "ADD_TEAM";
 export const END_MATCH = "END_MATCH";
 export const UPDATE_MATCH_SCORE = "UPDATE_MATCH_SCORE";

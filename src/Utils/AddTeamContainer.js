@@ -1,10 +1,10 @@
 import {connect} from 'react-redux';
 
 //Import the page
-import AddTeamPage from '../Components/add-team/add-team';
+import AddTeamPage from '../Pages/add-team/add-team';
 
 //Import the actions
-import {addTeam} from '../Actions';
+import {addTeam} from '../Seeds';
 
 const mapStateToProps = state => ({
 

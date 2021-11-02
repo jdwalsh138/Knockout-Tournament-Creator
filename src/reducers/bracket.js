@@ -2,7 +2,7 @@ import {
   GENERATE_NEW_BRACKET,
   UPDATE_ROUND_MATCHS,
   GET_NEXT_ROUND
-} from '../Constants';
+} from '../Db';
 
 import Bracket from '../Models/Bracket';
 

@@ -1,6 +1,6 @@
 import {
   SET_WINNING_TEAM
-} from '../Constants';
+} from '../Db';
 
 export const winning_team = (state = null, action) => {
 

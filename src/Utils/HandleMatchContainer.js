@@ -3,9 +3,9 @@ import {connect} from 'react-redux';
 import {
   updateMatchScore,
   updateBracketRoundMatchs
-} from '../Actions';
+} from '../Seeds';
 
-import HandleMatchPage from '../Components/handle-match/handle-match';
+import HandleMatchPage from '../Pages/handle-match/handle-match';
 
 const getSelectedMatch = (matchs, match_id) => {
   return matchs.find(function (match) {

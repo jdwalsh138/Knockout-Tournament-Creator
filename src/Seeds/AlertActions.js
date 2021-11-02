@@ -1,21 +1,10 @@
-import {
-    ALERT_VALID
-    ADMIN_VALID
-    GUEST_VALID
-  } from '../Db';
+import { alertConstants } from '../_constants';
 
 export const alertActions = {
     success,
     error,
     clear
 };
-
-export const alertSuccess = (message) => (
-    {
-      type: ADD_TEAM,
-      message
-    }
-  )
 
 function success(message) {
     return { type: alertConstants.SUCCESS, message };

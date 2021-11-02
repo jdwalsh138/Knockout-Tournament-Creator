@@ -6,7 +6,7 @@ import {
   END_MATCH,
   UPDATE_MATCH_SCORE,
   GET_BRACKET_ROUND_MATCHS
-} from '../Constants';
+} from '../Db';
 
 export const matchs = (state = [
   new Match ("","")

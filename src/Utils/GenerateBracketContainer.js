@@ -2,9 +2,9 @@ import {connect} from 'react-redux';
 
 import {
   generateNewBracket
-} from '../Actions';
+} from '../Seeds';
 
-import GenerateBracketPage from '../Components/generate-bracket/generate-bracket';
+import GenerateBracketPage from '../Pages/generate-bracket/generate-bracket';
 
 const mapStateToProps = state => ({
   teams: state.teams

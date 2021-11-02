@@ -1,12 +1,12 @@
 import Team from '../Models/Team';
 
-import {ADD_TEAM} from '../Constants';
+import {ADD_TEAM} from '../Db';
 
 export const teams = (state = [
-  new Team("Wildcats", null),
-  new Team("Yankees", null),
-  new Team("Cubs", null),
-  new Team("Stealers", null)
+  new Team("Chelsea", null),
+  new Team("Liverpool", null),
+  new Team("Everton", null),
+  new Team("Manchester Utd", null)
 ], action) => {
 
   switch(action.type) {
